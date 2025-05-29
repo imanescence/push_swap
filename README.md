@@ -1,6 +1,7 @@
 # push_swap
 My first sorting algorithm program in C
 
+![Stack of plates] (https://images.app.goo.gl/hQMF73VgXPqQF5KK8)
 
 **Push_swap** is a sorting algorithm visualizer and optimizer built in C. The goal of the project is to **sort a stack of integers** (stack a) using a very limited set of stack operations (switch a, push b, rotate a, etc.), while minimizing the total number of moves. At the start, stack_a contains a list of unique integers, and stack_b is empty.
 
