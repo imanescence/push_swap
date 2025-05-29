@@ -6,7 +6,7 @@
 #    By: iait-ouf <aitouflih.iman@gmail.com>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/18 14:35:15 by iait-ouf          #+#    #+#              #
-#    Updated: 2023/12/17 18:41:56 by iait-ouf         ###   ########.fr        #
+#    Updated: 2025/05/29 09:59:16 by iait-ouf         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,19 +16,19 @@ CFLAGS = -Wall -Wextra -Werror
 
 NAME = push_swap
 
-SRCS = 	ft_isdigit.c\
-		parsing.c\
-		operations.c\
-		main.c\
-		ft_error.c\
-		free_me.c\
-		presort.c\
-		minisort.c\
-		three_sort.c\
-		radix.c\
-		ft_str_isdigit.c
+SRCS = 		srcs/ft_isdigit.c\
+		srcs/parsing.c\
+		srcs/operations.c\
+		srcs/main.c\
+		srcs/ft_error.c\
+		srcs/free_me.c\
+		srcs/presort.c\
+		srcs/minisort.c\
+		srcs/three_sort.c\
+		srcs/radix.c\
+		srcs/ft_str_isdigit.c
 
-INCLUDE = push_swap.h
+INCLUDE = library/push_swap.h
 
 
 OBJECTS = $(SRCS:.c=.o)
