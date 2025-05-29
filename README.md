@@ -1,5 +1,5 @@
 # push_swap
-My first sorting algorithm program in C
+Sorting a stack with a C program
 
 <p align="center">
   <img src="https://cdn.discuss.boardinfinity.com/original/2X/4/43e224323f50c0fe7ea34b4f126c53659d287e7f.png" alt="Stack of plates" width="300"/>
